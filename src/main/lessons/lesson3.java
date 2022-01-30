@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
@@ -174,11 +173,6 @@ public class lesson3 {
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
-
-=======
-public class lesson3 {
-    public static void main(String[] args) {
->>>>>>> origin/MyNewBranch
-
     }
 }
+
