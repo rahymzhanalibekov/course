@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
     String name;
 
     public Animal() {
@@ -16,7 +16,9 @@ public class Animal {
         System.out.println("Животное подпрыгнуло");
     }
 
-    public void eat() { System.out.println("Животное ест");  }
+    public void eat(Plate p) {
+        System.out.println("Животное ест");
+    }
 
     public void run(int distance) {
         System.out.println("Животное пробежало: " + distance);
@@ -25,4 +27,6 @@ public class Animal {
     public void swim(int distance) {
         System.out.println("Животное проплыло: " + distance);
     }
+
+    //public abstract void eat(Plate p);
 }
